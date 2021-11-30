@@ -66,10 +66,10 @@
                           <h5 class="card-title"><p>Ejemplo de cómo usar la herencia en Java</p></h5>
                           <h7 class="card-text"><p>La palabra clave utilizada para la herencia es extends</p></h7>
                           <h7 class="card-text"><p>Ejemplo: Comencemos con un breve ejemplo que ilustra varias de las características clave de la herencia. El siguiente programa crea una superclase llamada DosDimensiones, que almacena el ancho y la altura de un objeto bidimensional, y una subclase llamada Triangulo. Observe cómo se usa la palabra clave extends para crear una subclase.</p></h7>
-                          <p><img src="./img/herencia_ejemplo1.png" class="img-fluid rounded-start" alt="..."></p>
-                          <p><img src="./img/herencia_ejemplo2.png" class="img-fluid rounded-start" alt="..."></p>
+                          <p><img src="./img/herencia_ejemplo1.PNG" class="img-fluid rounded-start" alt="..."></p>
+                          <p><img src="./img/herencia_ejemplo2.PNG" class="img-fluid rounded-start" alt="..."></p>
                           <h7 class="card-text"><p>Su salida será:</p></h7>
-                          <p><img src="./img/herencia_ejemplo3.png" class="img-fluid rounded-start" alt="..."></p>
+                          <p><img src="./img/herencia_ejemplo3.PNG" class="img-fluid rounded-start" alt="..."></p>
                           <h7 class="card-text"><p>Nota: En el programa anterior, cuando se crea un objeto de clase Triangulo, una copia de todos los métodos y campos de la superclase adquiere memoria en este objeto. Es por eso que, al usar el objeto de la subclase, también podemos acceder a los miembros de una superclase. </p></h7>
                           <h7 class="card-text"><p>Tenga en cuenta que durante la herencia solo se crea el objeto de la subclase, no de la superclase.</p></h7>
                       </div>
