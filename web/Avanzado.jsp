@@ -104,6 +104,7 @@ body{
                 <a href="MarcarFinalizado.jsp?tema=25&nivel=3&Action=<c:if test="${not empty tema3}">Eliminar</c:if>">Guardar Progreso</a>
                 
                 </c:if>
+                <%@include file="temas/Avanzado/tema3.jsp"%>
             </div><hr>
             <div id="section4">
                  <div><h3>JOptionPane, JCheckBox, JLabel <c:if test="${not empty tema4}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>
@@ -112,6 +113,7 @@ body{
                     <a href="MarcarFinalizado.jsp?tema=26&nivel=3&Action=<c:if test="${not empty tema4}">Eliminar</c:if>">Guardar Progreso</a>
                 
                 </c:if>
+                    <%@include file="temas/Avanzado/tema4.jsp"%>
             </div><hr>
             <div id="section5">
                 <div><h3>Generando Ejecutable Jar <c:if test="${not empty tema5}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>
@@ -120,6 +122,7 @@ body{
                     <a href="MarcarFinalizado.jsp?tema=27&nivel=3&Action=<c:if test="${not empty tema5}">Eliminar</c:if>">Guardar Progreso</a>
                 
                 </c:if>
+                    <%@include file="temas/Avanzado/tema5.jsp"%>
             </div><hr>
         </div>
     </div>
