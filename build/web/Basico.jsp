@@ -110,6 +110,7 @@ body{
                 <c:if test="${(not empty sessionScope.user) && (result.rows[0].cant >0)}">
                     <a href="MarcarFinalizado.jsp?tema=8&nivel=1&Action=<c:if test="${not empty tema2}">Eliminar</c:if>">Guardar Progreso</a>
                 </c:if>
+                    <%@include file="temas/Basico/VariablesTipos.jsp"%>
             </div><hr>
             <div id="section3">
 		<div><h3>Conversión de tipos de datos<c:if test="${not empty tema3}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>
@@ -118,6 +119,7 @@ body{
                 <a href="MarcarFinalizado.jsp?tema=9&nivel=1&Action=<c:if test="${not empty tema3}">Eliminar</c:if>">Guardar Progreso</a>
                 
                 </c:if>
+                <%@include file="temas/Basico/ConversionDeTIpos.jsp"%>
             </div><hr>
             <div id="section4">
                  <div><h3>Tipos de operadores<c:if test="${not empty tema4}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>
