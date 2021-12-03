@@ -112,6 +112,7 @@ body{
                 <c:if test="${(not empty sessionScope.user) && (result.rows[0].cant >0)}">
                     <a href="MarcarFinalizado.jsp?tema=16&nivel=2&Action=<c:if test="${not empty tema2}">Eliminar</c:if>">Guardar Progreso</a>
                 </c:if>
+                <%@include file="temas/Intermedio/POO.jsp"%>
             </div><hr>
             <div id="section3">
 		<h3>Atributos <c:if test="${not empty tema3}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3>
@@ -119,6 +120,7 @@ body{
                 <c:if test="${(not empty sessionScope.user) && (result.rows[0].cant >0)}">
                     <a href="MarcarFinalizado.jsp?tema=17&nivel=2&Action=<c:if test="${not empty tema3}">Eliminar</c:if>">Guardar Progreso</a>
                 </c:if>
+                <%@include file="temas/Intermedio/atributos.jsp"%>
             </div><hr>
             <div id="section4">
                  <h3>Métodos <c:if test="${not empty tema4}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3>
@@ -126,6 +128,7 @@ body{
                 <c:if test="${(not empty sessionScope.user) && (result.rows[0].cant >0)}">
                     <a href="MarcarFinalizado.jsp?tema=18&nivel=2&Action=<c:if test="${not empty tema4}">Eliminar</c:if>">Guardar Progreso</a>
                 </c:if>
+                <%@include file="temas/Intermedio/metodos.jsp"%>
             </div><hr>
             <div id="section5">
                 <h3>Validaciones (try-catch) <c:if test="${not empty tema5}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3>
