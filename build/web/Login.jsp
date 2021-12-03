@@ -17,9 +17,7 @@
                 </ul>
             </div>
         <div id="container">
-            <c:if test="${not empty param.msg}">
-                <p style="color:red;">Error: ${param.msg}</p>
-            </c:if>
+            
             <div id="container" style="margin-top: 5%;width: 25%;margin-left: 37.5%;">
             <h1 style="text-align: center;">INICIAR SESIÓN</h1>
             <c:if test="${not empty param.msg}">

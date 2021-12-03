@@ -19,12 +19,15 @@
                 <div class="card mb-3 caja-contenedor">
                     <div class="row g-0">
                       <div class="col-md-4">
-                        <img src="./img/code.jpg" class="img-fluid rounded-start" alt="...">
+                          <img src="./img/code.jpg" class="img-fluid rounded-start" alt="curso java" style="width:200px;">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
                           <h5 class="card-title">Descripción del sitio</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text">En el CURSO JAVA puedes aprender a programar desde lo más básico, hasta un nivel avanzado.
+                              Puedes registrarte en el sitio para llevar un mejor control de tu progreso en los temas que posee el curso,
+                              
+                          </p>
                           <p class="card-text"><small class="text-muted">JAVA<>CODE</small></p>
                         </div>
                       </div>
@@ -47,7 +50,7 @@
                                 <a class="btn btn-primary rounded-pill" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     ¿Como empezar?
                                    </a>
-                                <p>Some representative placeholder content for the first slide.</p>
+                                <p>Curso Java</p>
                               </div>
                         </div>
                         <div class="carousel-item">
@@ -57,7 +60,7 @@
                                 <a class="btn btn-primary rounded-pill" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     ¿Como empezar?
                                 </a>
-                                <p>Some representative placeholder content for the first slide.</p>
+                                <p>Curso Java</p>
                               </div>
                         </div>
                         <div class="carousel-item">
@@ -67,7 +70,7 @@
                                 <a class="btn btn-primary rounded-pill" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     ¿Como empezar?
                                    </a>
-                                <p>Some representative placeholder content for the first slide.</p>
+                                <p>Curso Java</p>
                               </div>
                         </div>
                     </div>
@@ -86,9 +89,45 @@
                   <div class="collapse" id="collapseExample">
                     <div class="card card-body">
                         <h2>Guía Rápida del sitio</h2>
-                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                      <a href="#nav">as</a>
-                    </div>
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card border-primary" style="max-width: auto;height:23rem;">
+                                    <div class="card-header"><img src="img/Descripcion_1.jpg" style="width: 90%;"></div>
+                                    <div class="card-body text-primary">
+                                        <h5 class="card-title">Acceder al contenido</h5>
+                                        <p class="card-text">En la pestaña <a href="NivelesDificultad.jsp">curso java</a> encontrarás los tres niveles de dificultad del curso,  </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-danger" style="max-width: auto;height:23rem;">
+                                    <div class="card-header"><img src="img/Descripcion_2.jpg" style="width: 90%;"></div>
+                                    <div class="card-body text-danger">
+                                        <h5 class="card-title">Navegar por los temas</h5>
+                                        <p class="card-text">Dentro de cada nivel de dificultad puedes acceder fácilmente a los distintos temas a través del panel lateral de navegación.</p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="col">
+                                <div class="card border-success" style="max-width: auto;height:23rem;">
+                                    <div class="card-header"><img src="img/Descripcion_3.jpg" style="width: 90%;"></div>
+                                    <div class="card-body text-success">
+                                        <h5 class="card-title">Gestionar progreso</h5>
+                                        <p class="card-text">Registrate en el curso y controla tu progreso dentro de cada nivel de dificultad, marca como finalizados los temas que hayas terminado con el botón guardar progreso.</p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="col">
+                                <div class="card border-secondary" style="max-width: auto;height:23rem;">
+                                    <div class="card-header"><img src="img/Descripcion_4.jpg" style="width: 90%;"></div>
+                                    <div class="card-body text-secondary">
+                                        <h5 class="card-title">Conoce la historia de java</h5>
+                                        <p class="card-text">Si eres un poco curioso, te resultará interesante conocer un poco sobre la historia de Java.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                   </div>
               </div>
             <%@include file="Footer.jsp" %>

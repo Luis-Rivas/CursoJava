@@ -8,11 +8,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <%@include file="Head.jsp" %>
         <title>INICIANDO CURSO</title>
     </head>
     <body>
-        <h1>Verificación de Usuarios</h1>
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
         <c:if test="${empty param.tema or empty param.nivel}">
             <c:redirect url="Basico.jsp">
                 <c:param name="msg" value="usuario o clave vacios"/>
@@ -102,7 +104,10 @@
                         </c:otherwise>
                     </c:choose>
                 
-            }, 1);
+            }, 0);
         </script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
     </body>
 </html>

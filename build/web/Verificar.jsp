@@ -8,11 +8,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>VALIDACION DE USUARIOS</title>
+        <%@include file="Head.jsp" %>
+        <title></title>
     </head>
     <body>
-        <h1>Verificación de Usuarios</h1>
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
         <c:if test="${empty param.usuario or empty param.clave}">
             <c:redirect url="Login.jsp">
                 <c:param name="msg" value="usuario o clave vacios"/>
@@ -40,11 +42,11 @@
         <c:set var="apellido" value="${datos.rows[0].apellido_usuario}" scope="session" />
         <c:set var="id_user" value="${datos.rows[0].id_usuario}" scope="session" />
         
-        <p style="color:red;"><br><br>En unos segundos se redirijirá a index</p>
                 <script>
             setTimeout(function () {
                 location.href = "index.jsp";
             },0);
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
