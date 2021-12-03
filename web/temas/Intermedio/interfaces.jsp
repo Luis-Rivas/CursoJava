@@ -1,7 +1,7 @@
 <%-- 
-    Document   : herencia
-    Created on : 25-nov-2021, 15:59:14
-    Author     : Luifran
+    Document   : interfaces
+    Created on : 2-dic-2021
+    Author     : diegocastro
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -19,7 +19,7 @@
                           <div><h7 class="card-text"><p>"modificar_acceso" puede ser una clase de objetos que nos permite utilizar herencia en abstracción constante en las clases en las que se implemente. Para implementarla en una clase, se utiliza la forma:</p></h7></div>
                           <p><img src="./img/interfaz_2.png" class="img-fluid rounded-start" alt="..."></p>
                           </div>                                                                              
-                        </div>
+                        </div>git a
                       </div>
                     </div>
               

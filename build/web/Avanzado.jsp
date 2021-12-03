@@ -87,7 +87,7 @@ body{
                     <a class="btn btn-primary" href="MarcarFinalizado.jsp?tema=23&nivel=3&Action=<c:if test="${not empty tema1}">Eliminar</c:if>">Marcar como Finalizado</a>
                     
                 </c:if>
-                <%@include file="temas/Intermedio/try_catch.jsp"%>
+                <%@include file="temas/Avanzado/javaSwing.jsp"%>
             </div><hr>
             <div id="section2">
                 <div><h3>JButton, JPanel, JDialog <c:if test="${not empty tema2}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>
@@ -96,6 +96,7 @@ body{
                     <a href="MarcarFinalizado.jsp?tema=24&nivel=3&Action=<c:if test="${not empty tema2}">Eliminar</c:if>">Guardar Progreso</a>
                 
                 </c:if>
+                <%@include file="temas/Avanzado/Jbutton_jpanel_jdialog.jsp"%>
             </div><hr>
             <div id="section3">
 		<div><h3>JComboBox, JList <c:if test="${not empty tema3}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>
