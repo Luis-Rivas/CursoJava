@@ -128,6 +128,7 @@ body{
                     <a href="MarcarFinalizado.jsp?tema=10&nivel=1&Action=<c:if test="${not empty tema4}">Eliminar</c:if>">Guardar Progreso</a>
                 
                 </c:if>
+                 <%@include file="temas/Basico/TiposDeOperadores.jsp" %>
             </div><hr>
             <div id="section5">
                 <div><h3>Leer caracteres desde el teclado<c:if test="${not empty tema5}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>
@@ -136,6 +137,7 @@ body{
                     <a href="MarcarFinalizado.jsp?tema=11&nivel=1&Action=<c:if test="${not empty tema5}">Eliminar</c:if>">Guardar Progreso</a>
                 
                 </c:if>
+                    <%@include file="temas/Basico/IngresarCaracteres.jsp" %>
             </div><hr>
             <div id="section6">
                 <div><h3>Manejo de cadenas de caracteres (String)<c:if test="${not empty tema6}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>
@@ -144,6 +146,7 @@ body{
                     <a href="MarcarFinalizado.jsp?tema=12&nivel=1&Action=<c:if test="${not empty tema6}">Eliminar</c:if>">Guardar Progreso</a>
                 
                 </c:if>
+                    <%@include file="temas/Basico/ManejoDeString.jsp" %>
             </div><hr>
             <div id="section7">
                 <div><h3>Estructuras condicionales <c:if test="${not empty tema7}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>

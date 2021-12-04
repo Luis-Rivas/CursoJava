@@ -58,7 +58,7 @@ body{
                     </c:choose>
                 </c:forEach>
 <div class="container-lg my-2">
-    <h1 style="text-aling:center;">Nivel Básico</h1>
+    <h1 style="text-aling:center;">Nivel Avanzado</h1>
     <div class="row">
         <div class="col-sm-3" id="myScrollspy">
             <div class="list-group">
