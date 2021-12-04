@@ -26,7 +26,7 @@
                     <li class="nav-item"><a class="nav-link <c:if test="${pageId eq 'CursoJava'}">active</c:if>" href="NivelesDificultad.jsp">CURSO JAVA</a></li>
                     <li class="nav-item"><a class="nav-link <c:if test="${pageId eq 'QuienesSomos'}">active</c:if>" href="./Quienes_somos.jsp">¿QUIENES SOMOS?</a></li>
                     <li class="nav-item"><a class="nav-link <c:if test="${pageId eq 'Descripcion'}">active</c:if>" href="./Descripcion.jsp">DESCRIPCION DEL CURSO</a></li>
-                    <li class="nav-item"><a class="nav-link <c:if test="${pageId eq 'Historia'}">active</c:if>" href="./Historia.jsp">HISTORIA JAVA</a></li>
+                    <li class="nav-item"><a class="nav-link <c:if test="${pageId eq 'Historia'}">active</c:if>" href="./historia.jsp">HISTORIA JAVA</a></li>
                     
                 </ul>
             </div>
