@@ -15,8 +15,23 @@
         <!--Diseño de la página-->
         <div style="height: 80rem;">
             <%@include file="Nav.jsp" %>
-            
+                        <div class="card mb-3 caja-contenedor3">
+                <div class="row g-0">
+                    <div class="col-md-12">
+                        <div class="card-body"> 
+                            <h1 class="card-title text-center"><p>¡BIENVENIDO!</p></h1>
+                            <h4 class="card-text"><p>¿Has estado buscando un curos de java? Entraste en el lugar indicado, aqui podras encontrar el curso mas completo de Java en toda la web. Los mejores ejemplos, los mejores videos y los temas mas importantes los tenemos aqui, para que llegues a convertirte en un experto en el lenguaje de programacion Java. </p></h4>
+                            <p align="center"><img src="./img/index.png" class="img-fluid rounded-start" alt="..."></p>
+                            <h4 class="card-text"><p>Inicia Sesion para continuar donde lo dejaste o si eres nuevo tienes la opcion de registrarte, es facil, rapido, gratis y podras llevar un control de tu progreso en el curso. </p></h4>
+                            <div align="center"><a class="btn btn-primary" href="Login.jsp" >Iniciar Sesion</a>
+                                <a class="btn btn-primary" href="Registro.jsp" >Registrate</a></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+           
             <%@include file="Footer.jsp" %>
         <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
