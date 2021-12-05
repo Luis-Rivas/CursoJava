@@ -11,7 +11,7 @@
     <head>
      <%@include file="Head.jsp"%>
           <meta charset="UTF-8">
-  <title>CodePen - Responsive horizontal timeline using Slick 1.9.0 / Bootstrap 4.5.2</title>
+  <title>Historia-Curso Java</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'><link rel="stylesheet" href="./style.css">
     </head>

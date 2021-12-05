@@ -3,7 +3,7 @@
 <html>
     <head>
         <%@include file="Head.jsp" %>
-        <title>JSP Page</title>
+        <title>Registro de usuario</title>
     </head>
     <body>
         <div class="sticky-top" style="border-bottom: solid #CECECE 1px; background-color:white;">

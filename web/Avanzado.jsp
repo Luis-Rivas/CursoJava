@@ -10,7 +10,7 @@
 <head>
 
 <%@include file="Head.jsp" %>
-<title>Nivel Avanzado</title>
+<title>Curso Java-Avanzado</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <style>
 body{

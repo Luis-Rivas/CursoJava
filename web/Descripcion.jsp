@@ -10,7 +10,7 @@
 <html>
     <head>
      <%@include file="Head.jsp"%>
-        <title>JSP Page</title>
+        <title>Descripción-Curso Java</title>
     </head>
     <body>
         <%@include file="Nav.jsp" %>
