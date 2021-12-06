@@ -155,6 +155,7 @@ body{
                     <a href="MarcarFinalizado.jsp?tema=13&nivel=1&Action=<c:if test="${not empty tema7}">Eliminar</c:if>">Guardar Progreso</a>
                
                 </c:if>
+                    <%@include file="temas/Basico/EstructurasCondicionales.jsp" %>
             </div><hr>
             <div id="section8">
                 <div><h3>Bucles(Ciclos iterativos)<c:if test="${not empty tema8}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3></div>
@@ -163,6 +164,7 @@ body{
                     <a href="MarcarFinalizado.jsp?tema=14&nivel=1&Action=<c:if test="${not empty tema8}">Eliminar</c:if>">Guardar Progreso</a>
                 
                 </c:if>
+                    <%@include file="temas/Basico/Bucles.jsp" %>
             </div><hr>
             
         </div>

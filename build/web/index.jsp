@@ -22,10 +22,16 @@
                             <h1 class="card-title text-center"><p>¡BIENVENIDO!</p></h1>
                             <h4 class="card-text"><p>¿Has estado buscando un curos de java? Entraste en el lugar indicado, aqui podras encontrar el curso mas completo de Java en toda la web. Los mejores ejemplos, los mejores videos y los temas mas importantes los tenemos aqui, para que llegues a convertirte en un experto en el lenguaje de programacion Java. </p></h4>
                             <p align="center"><img src="./img/index.png" class="img-fluid rounded-start" alt="..."></p>
-                            <h4 class="card-text"><p>Inicia Sesion para continuar donde lo dejaste o si eres nuevo tienes la opcion de registrarte, es fácil, rápido, gratis y podras llevar un control de tu progreso en el curso. </p></h4>
-                            <div align="center"><a class="btn btn-primary" href="Login.jsp" >Iniciar Sesion</a>
-                                <a class="btn btn-primary" href="Registro.jsp" >Registrate</a></div>
-                            
+                            <c:choose>
+                                <c:when test="${empty sessionScope.user or sessionScope.user eq ''}">
+                                    <h4 class="card-text"><p>Inicia Sesion para continuar donde lo dejaste o si eres nuevo tienes la opcion de registrarte, es fácil, rápido, gratis y podras llevar un control de tu progreso en el curso. </p></h4>
+                                    <div align="center"><a class="btn btn-primary" href="Login.jsp" >Iniciar Sesion</a>
+                                        <a class="btn btn-primary" href="Registro.jsp" >Registrate</a></div>
+                                </c:when>
+                                <c:otherwise>
+                                    <div align="center"><a class="btn btn-primary" href="NivelesDificultad.jsp" >Continuar</a></div>
+                                </c:otherwise>
+                            </c:choose>
                         </div>
                     </div>
                 </div>

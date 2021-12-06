@@ -104,7 +104,7 @@ body{
                 <c:if test="${(not empty sessionScope.user) && (result.rows[0].cant >0)}">
                     <a href="MarcarFinalizado.jsp?tema=15&nivel=2&Action=<c:if test="${not empty tema1}">Eliminar</c:if>">Guardar Progreso</a>
                 </c:if>
-                <%@include file="temas/Intermedio/try_catch.jsp"%>
+                <%@include file="temas/Intermedio/Matrices.jsp"%>
             </div><hr>
             <div id="section2">
                 <h3>Introducción a la POO <c:if test="${not empty tema2}"><i class="bi bi-bookmark-check-fill"></i></c:if></h3>
